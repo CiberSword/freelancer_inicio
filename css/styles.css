@@ -243,7 +243,7 @@ h1,h2,h3{
 
 .formulario{
     margin: 0 auto;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     background-color: #4B4B4B;
     width: min(60rem, 100%); /* Utilizar el valor mas pequeño */
     padding: 2rem;
@@ -267,7 +267,7 @@ h1,h2,h3{
     .contenedor-campos{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto auto 22rem;
+        grid-template-rows: auto auto 18rem;
         column-gap: 1rem;
     }
     .campo:nth-child(3){
@@ -287,7 +287,7 @@ h1,h2,h3{
 }
 
 .campo textarea{
-    height: 20rem;
+    height: 16rem;
 }
 
 .input-text{
